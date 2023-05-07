@@ -1,0 +1,56 @@
+body {
+    background-color: #a5cbed;
+margin: 0;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navcontainer {
+    background-color: rgb(246, 198, 216);
+    height: 50px;
+}
+
+.nav {
+    float: right;
+padding: 20px;
+}
+
+.nav a {
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+}
+.real {
+    float: left;
+    padding-left:20px;
+}
+
+.blockcontainer {
+width: 1200px;
+height: 500px;
+margin: 50PX auto;
+}
+
+.block {
+ height: 500px;
+ width: 200px;
+ background-color: #d7e6ec;
+ padding: 30px;
+ border: 2px solid rgb(237, 145, 199);
+ text-align: center;
+ margin: 10px;
+ float: left;
+}
+
+.moreinfo {
+    background-color: #a5cbed;
+}
+.moreinfo h3 {
+    padding: 5px;
+}
