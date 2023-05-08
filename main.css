@@ -1,24 +1,23 @@
 body {
-    background-color: #a5cbed;
+background-color: #a5cbed;
 margin: 0;
+height: 800px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navcontainer {
-    background-color: rgb(246, 198, 216);
-    height: 50px;
+background-color: #f6c6d8;
+height: 50px;
 }
 
 .nav {
-    float: right;
 padding: 20px;
 }
 
 .nav a {
-    padding: 20px;
+    padding: 25px;
     font-size: 18px;
     text-decoration: none;
-
 }
 a:visited {
     color: black;
@@ -27,25 +26,39 @@ a:link {
     color: black;
 }
 .real {
-    float: left;
     padding-left:20px;
 }
 
-.blockcontainer {
-width: 1200px;
-height: 500px;
-margin: 50PX auto;
+ul#flex-container {
+list-style-type: none;
+height: 800px;
+margin: 0;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
 }
 
-.block {
- height: 500px;
- width: 200px;
- background-color: #d7e6ec;
- padding: 30px;
- border: 2px solid rgb(237, 145, 199);
- text-align: center;
- margin: 10px;
- float: left;
+ol#flex-container-nav {
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+
+ul li {
+    
+height: 500px;
+width: 200px;
+background-color: #d7e6ec;
+padding: 30px;
+border: 2px solid rgb(237, 145, 199);
+text-align: center;
+margin: 20px;
 }
 
 .moreinfo {
